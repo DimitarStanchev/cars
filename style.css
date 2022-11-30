@@ -1,0 +1,41 @@
+	img {
+			width: 200px;
+			height: auto;
+			}
+
+	nav img {
+		width: auto;
+	}
+
+	video {
+			width: 320px;
+			height: auto;
+			}
+
+	 iFrame{
+			width: 320px;
+			height: auto;
+			}
+
+	body {
+  			background-color: black;
+			}
+
+	h1 {
+  			color: white;
+  			text-align: center;
+			}
+
+	h2 {
+			color: white;
+			}
+
+	p {
+			color: white;
+  			font-family: verdana;
+ 		 	font-size: 20px;
+
+			}
+
+
+
