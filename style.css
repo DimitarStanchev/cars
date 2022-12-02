@@ -1,6 +1,7 @@
 	img {
 			width: 200px;
 			height: auto;
+  			box-shadow: 2px 2px 4px #000000;
 			}
 
 	nav img {
@@ -10,32 +11,39 @@
 	video {
 			width: 320px;
 			height: auto;
+			box-shadow: 2px 2px 4px #000000;
 			}
 
 	 iFrame{
 			width: 320px;
 			height: auto;
+			box-shadow: 2px 2px 4px #000000;
 			}
 
 	body {
-  			background-color: black;
+  			background-color: grey;
 			}
 
 	h1 {
   			color: white;
+  			text-shadow: 2px 2px 4px #000000;
   			text-align: center;
 			}
 
 	h2 {
 			color: white;
+  			text-shadow: 2px 2px 4px #000000;
 			}
 
 	p {
 			color: white;
+  			text-shadow: 2px 2px 4px #000000;
   			font-family: verdana;
  		 	font-size: 20px;
-
 			}
 
+   .third {
+			text-shadow: 2px 2px 4px #000000;
+			}
 
 
