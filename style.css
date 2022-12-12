@@ -16,7 +16,7 @@ video {
 	margin-left: 15px;
 }
 
-iFrame{
+iFrame {
 	width: 320px;
 	height: auto;
 	box-shadow: 2px 2px 4px #000000;
@@ -32,23 +32,35 @@ h1 {
   	text-shadow: 2px 2px 4px #000000;
   	text-align: center;
 	font-size: 100px;
+	font-family: 'PressuruRegular';
+   	font-weight: normal;
+   	font-style: normal;
 }
 
 h2 {
 	color: white;
   	text-shadow: 2px 2px 4px #000000;
+	font-family: 'PressuruRegular';
+   	font-weight: normal;
+   	font-style: normal;
 }
 
 p {
 	color: white;
   	text-shadow: 2px 2px 4px #000000;
-  	font-family: verdana;
  	font-size: 20px;
 	margin-left: 15px;
-			}
+	font-family: 'PressuruRegular';
+   	font-weight: normal;
+   	font-style: normal;
+}
 
 button {
 	box-shadow: 2px 2px 4px #000000;
+}
+nav{
+background-color: ;
+overflow: hidden;height: 50px;">
 }
 
 .third {
@@ -62,15 +74,9 @@ button {
 }
 
 .name_style h1{
-	padding-top: 85px;
+	padding-top: 99px;
 }
 
 .flex{
 	text-align: center;
-}
-
-.button_stack{
-	width: 300px;
-	height: auto;
-	margin-left: 1225px;
 }
