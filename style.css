@@ -2,25 +2,23 @@ img {
 	width: auto;
 	height: 150px;
 	box-shadow: 2px 2px 4px #000000;
-	margin-left: 15px;
+}
+nav img {
+	height: 30px;
 }
 
-nav img {
-	width: auto;
-}
 
 video {
 	width: 320px;
 	height: auto;
 	box-shadow: 2px 2px 4px #000000;
-	margin-left: 15px;
+
 }
 
 iFrame {
 	width: 320px;
 	height: auto;
 	box-shadow: 2px 2px 4px #000000;
-	margin-left: 15px;
 }
 
 body {
@@ -43,13 +41,13 @@ h2 {
 	font-family: 'PressuruRegular';
    	font-weight: normal;
    	font-style: normal;
+   	text-align: center;
 }
 
 p {
 	color: white;
   	text-shadow: 2px 2px 4px #000000;
  	font-size: 20px;
-	margin-left: 15px;
 	font-family: 'PressuruRegular';
    	font-weight: normal;
    	font-style: normal;
@@ -58,25 +56,20 @@ p {
 button {
 	box-shadow: 2px 2px 4px #000000;
 }
-nav{
-background-color: ;
-overflow: hidden;height: 50px;">
-}
-
-.third {
-	box-shadow: 2px 2px 4px #000000;
-}
 
 .name_style{
 	background-image: url("https://i.pinimg.com/600x315/ab/68/e7/ab68e73ad4e8a206670d0bc44a3e5ad6.jpg");
 	height: 315px;
 	width: auto;
+	display: none;
 }
 
 .name_style h1{
-	padding-top: 99px;
+	padding-top: 113px;
 }
 
-.flex{
-	text-align: center;
+@media (min-width: 400px) {
+  .name_style {
+    display: block;
+  }
 }

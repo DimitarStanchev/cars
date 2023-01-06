@@ -2,36 +2,53 @@
 <html>
 	<head>
 		<title>Audi RS7</title>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+		<link rel="stylesheet" href="bootstrap.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"> </script>
 		<link rel="icon" type="image/png" href="favicon.png">
 		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/pressuru" type="text/css"/>
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
 
-<!-- Nav Bar -->
-<nav class="demo">
-  <a href="index.html" class="brand">
-    <img class="logo" src="/home/dimitar/Плот/cars/favicon.png" />
-    <span>MODERN CARS</span>
-  </a>
+		<!-- Nav Bar -->
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		  <div class="container-fluid">
+		  	<img src="favicon.png" class="d-inline-block align-text-top">
+		  	<a class="navbar-brand" href="index.html">MODERN CAR</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Начало</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Магазин</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="info.html">Контакти</a>
+				</li>
+			  </ul>
+			  <form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			  </form>
+			</div>
+		  </div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col">
+					<h2> Audi RS7 </h2>
+					<img src="photos/audi1.jpg" class="img-fluid">
 
-  <input id="bmenub" type="checkbox" class="show">
-  <label for="bmenub" class="burger pseudo button">menu</label>
+					<p> Двигателят е същият 4.0-литров V8 от RS6 Avant и предлага мека хибридна система със задвижван от ремък стартер генератор. Общата мощност е 600 к.с. и 800 Nm (590 lb-ft) въртящ момент. Енергията се изпраща към системата за задвижване на всички колела чрез 8-степенна автоматична скоростна кутия. Сцеплението се основава на напълно механичен централен диференциал, който изпраща въртящ момент към предния и задния мост в съотношение 40:60. Спринтът от 0 до 100 км/ч (0-62 мили/ч) се извършва за 3,6 секунди, а максималната скорост е 305 км/ч (189,5 мили/ч). </p>
 
-  <div class="menu">
-    <a href="sign-in.html"><button class='success'>Sign in</button></a>
-    <a href="register.html"><button>Register</button></a>
-  </div>
-</nav>
-
-		<h2> Audi RS7 </h2>
-		<img src="photos/audi1.jpg">
-
-		<p> Двигателят е същият 4.0-литров V8 от RS6 Avant и предлага мека хибридна система със задвижван от ремък стартер генератор. Общата мощност е 600 к.с. и 800 Nm (590 lb-ft) въртящ момент. Енергията се изпраща към системата за задвижване на всички колела чрез 8-степенна автоматична скоростна кутия. Сцеплението се основава на напълно механичен централен диференциал, който изпраща въртящ момент към предния и задния мост в съотношение 40:60. Спринтът от 0 до 100 км/ч (0-62 мили/ч) се извършва за 3,6 секунди, а максималната скорост е 305 км/ч (189,5 мили/ч). </p>
-
-		<img src="photos/audi2.jpg">
-		<img src="photos/audi3.jpg">
-		<br>
+					<img src="photos/audi2.jpg" class="img-fluid">
+					<img src="photos/audi3.jpg" class="img-fluid">
+				</div>	
+			</div>
+		</div>
 	</body>
 </html>
